@@ -58,6 +58,7 @@ describe('Issue details editing', () => {
 
       cy.get('textarea[placeholder="Short summary"]').should('have.text', title);
       cy.get('.ql-snow').should('have.text', description);
+      
     });
   });
 
