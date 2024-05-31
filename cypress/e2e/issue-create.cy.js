@@ -142,7 +142,6 @@ describe('Issue create', () => {
         });
     });
   
-// MY TEST CASE 2_ Karina //
 
 it('Should create an issue and validate it successfully', () => {
     cy.get('[data-testid="modal:issue-create"]').within(() => {

@@ -59,5 +59,5 @@ const getIssueDetailsModal = () => cy.get('[data-testid="modal:issue-details"]')
 const getConfirmationModal = () => cy.get('[data-testid="modal:confirm"]');
  
 
-});
+}); 
 
