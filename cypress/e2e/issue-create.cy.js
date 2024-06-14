@@ -17,8 +17,8 @@ describe('Issue create', () => {
     // System finds modal for creating issue and does next steps inside of it
     cy.get('[data-testid="modal:issue-create"]').within(() => {
       // Type value to description input field
-      cy.get('.ql-editor').type('TEST_DESCRIPTION');
-      cy.get('.ql-editor').should('have.text', 'TEST_DESCRIPTION');
+      cy.get('.ql-editor').type('TEST123_DESCRIPTION');
+      cy.get('.ql-editor').should('have.text', 'TEST123_DESCRIPTION');
 
       // Type value to title input field
       // Order of filling in the fields is first description, then title on purpose
